@@ -4,10 +4,15 @@ The Wild Oasis is a comprehensive management tool designed for hotel staff to ef
 
 ## Table of contents
 -**Features**
+
 -**Screens and Functionalities**
+
 -**Technologies Used**
+
 -**Installation and Setup**
+
 -**Usage**
+
 -**Future improvements**
 
 ## Features
