@@ -35,6 +35,7 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           id: editId,
         },
         {
+          // eslint-disable-next-line no-unused-vars
           onSuccess: (data) => {
             reset(), onCloseModal?.();
           },
@@ -44,6 +45,7 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
       createCabin(
         { ...data, image: image },
         {
+          // eslint-disable-next-line no-unused-vars
           onSuccess: (data) => {
             reset(), onCloseModal?.();
           },
@@ -52,7 +54,7 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
   }
 
   function onError(errors) {
-    // console.log(errors);
+    console.log(errors);
   }
 
   return (
