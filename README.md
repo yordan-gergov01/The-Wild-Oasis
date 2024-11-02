@@ -135,3 +135,36 @@ npm run dev
 **On-the-Spot Booking:**
 - Add functionality to allow staff to create bookings directly within the app, enabling efficient, real-time reservation management and accommodating last-minute guests.
 
+
+## Best practices
+
+**Component-Based Architecture:**
+- The project is structured with reusable and modular components, adhering to the principles of component-based design in React. This approach ensures that each UI element is independently manageable, facilitating easy maintenance and scalability.
+
+**Separation of Concerns:**
+- Logic, styles, and UI presentation are separated across components. Business logic is encapsulated, reducing the risk of side effects and making the code more maintainable.
+
+**State Management with React Query:**
+- Leveraging React Query for efficient server state management enables optimal data-fetching strategies and provides caching, synchronization, and error handling, creating a smoother and more performant user experience.
+
+**Error Handling and Boundary Management:**
+- Implemented with React-Error-Boundary, errors in the UI are gracefully caught and displayed, maintaining application stability and providing informative feedback to users when issues arise.
+
+**Form Handling with React-Hook-Form:**
+- Forms are managed using React Hook Form, offering an intuitive, performant, and accessible way to handle input validations and submissions. This approach reduces re-renders and keeps the code clean and efficient.
+
+**Responsive and Adaptive Design:**
+- Ensures accessibility and usability across various screen sizes and devices, supporting an enhanced user experience on both desktop and mobile.
+
+**Consistent Styling with Styled Components:**
+- Utilized styled-components for modular and scoped styling, which keeps the CSS closely tied to its respective components, improving code readability and preventing style conflicts.
+
+**Contextual Theming (Dark Mode):**
+- Implemented a dark mode feature to enhance usability in different lighting environments, improving user comfort and personalizing the experience.
+
+**Date and Time Management with date-fns:**
+- Utilized date-fns for reliable and flexible date management across the application, particularly helpful in managing check-in/check-out dates, booking history, and daily dashboard statistics.
+
+**Secure Backend Integration with Supabase:**
+- Used Supabase as the backend, with best practices for secure data handling, ensuring that user information, reservations, and account data are safely stored and accessible only to authorized personnel.
+
