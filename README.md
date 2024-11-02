@@ -153,9 +153,6 @@ npm run dev
 **Form Handling with React-Hook-Form:**
 - Forms are managed using React Hook Form, offering an intuitive, performant, and accessible way to handle input validations and submissions. This approach reduces re-renders and keeps the code clean and efficient.
 
-**Responsive and Adaptive Design:**
-- Ensures accessibility and usability across various screen sizes and devices, supporting an enhanced user experience on both desktop and mobile.
-
 **Consistent Styling with Styled Components:**
 - Utilized styled-components for modular and scoped styling, which keeps the CSS closely tied to its respective components, improving code readability and preventing style conflicts.
 
